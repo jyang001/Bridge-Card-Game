@@ -1,4 +1,4 @@
-###Bridge Card Game###
+###Bridge Card Game
 
 </h>A simulated Bridge Game using Python</h>
 From the textbook **Data Structures and Algorithms Using Python and C++, by David M. Reed and John Zell** 
@@ -14,8 +14,8 @@ Implemented:
 
 
 
-##Prerequisites##
-Python3 installed
+##Prerequisites
+*Python3 installed
 
-##Built With##
-Python
+##Built With
+*Python
