@@ -4,13 +4,13 @@
 
 From chapter 2 of the textbook **Data Structures and Algorithms Using Python and C++, by David M. Reed and John Zell** 
 
-Used:
+**Used**:
 * Given Hand class which implements a hand of a player from a standard 52 card deck
 * Given Card class which implements a card of a standard 52 card deck
 * Given Deck class which implements a standard 52 card deck
 * Given TestDeck UnitTest to test the Deck class
 
-Implemented:
+**Implemented**:
 * Edited the TestDeck UnitTest to make output appear clear and clean
 * TestCard file: UnitTest to test the Card class 
 * shuffle, addTop, addBottom, and addRandom functions of the Deck Class
