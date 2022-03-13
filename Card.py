@@ -13,11 +13,12 @@ class Card(object):
                   'Seven', 'Eight', 'Nine', 'Ten', 
                   'Jack', 'Queen', 'King']
 
-    def __init__(self, rank, suit):
+    def __init__(self, rank, suit, print_ranks=False):
         '''Constructor
         pre: rank in range(1,14) and suit in 'cdhs'
         post: self has the given rank and suit'''
-        print(self.RANKS)
+        if print_ranks:
+            print(self.RANKS)
         self.rank_num = rank
         self.suit_char = suit
         

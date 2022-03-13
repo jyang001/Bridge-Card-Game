@@ -1,6 +1,7 @@
 # test for Deck ADT
 from Deck import *
 
+
 def TestDeck():
     print("\n Creating a deck of cards and dealing it... \n")
     d = Deck()
@@ -21,4 +22,6 @@ def TestDeck():
     #Yang: print size of deck after all the cards have been dealed to make sure
     #      the deal() worked well
 
-TestDeck()        
+
+TestDeck()
+

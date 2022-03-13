@@ -1,29 +1,29 @@
 from Card import Card
-from Deck import *
+from Deck import Deck
 from random import choice
 from random import randrange
 from Hand import Hand
 
+
 def main():
-    D = Deck(); #create a deck of 52 cards
+    D = Deck(dealer='Tyler... it could be worse')  # create a deck of 52 cards
     D.shuffle()
     
-    rank = randrange(1,14)
+    rank = randrange(1, 14)
     suit = choice(Card.SUITS)
     myCard = Card(rank, suit)
     index = Card.SUITS.index(suit)
     suitN = Card.SUIT_NAMES[index]
     
-    print("\nThe card is:", myCard, "and the trump suit is:",suitN,"\n")
+    print("\nThe card is:", myCard, "and the trump suit is:", suitN, "\n")
     
     #outputs trump suit and card
-    
     PN = 0
     PS = 0
     n = Hand("North")    
     s = Hand("South")
     
-    for numbers in range(1,27):
+    for numbers in range(1, 27):
         TN = D.deal()
         print("round:", numbers,)
         TS = D.deal()
@@ -84,5 +84,7 @@ def main():
         print("\nSouth Wins")
     elif(PN == PS):
         print("Nobody wins, it's a tie")
-        
-main()
+
+
+if __name__ == '__main__':
+    main()
